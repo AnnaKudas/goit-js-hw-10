@@ -1,0 +1,26 @@
+/* Add your minimal design styles here */
+
+.loader {
+    display: none; /* Initially hidden */
+    /* Styles for your loader, you can use a library for this */
+  }
+
+.cat-info {
+display: none; /* Initially hidden */
+/* Styles for the cat information container */
+}
+
+.error {
+display: none; /* Initially hidden */
+/* Styles for error notifications or use a library for this */
+}
+
+.container {
+    display: flex;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+  
